@@ -1,4 +1,4 @@
-# Encabezado principal (h3)
+# Encabezado principal (h1)
 
 ## Encabezado secundario (h2)
 
