@@ -1,0 +1,77 @@
+1- Localizar tu carpeta con el comando cd (Para movernos en las carpetas), ls (enlista la carpeta) y pwd (Conocer la ruta en donde estamos localizados)
+	ej. 
+	cd Escritorio
+	ls 
+	pwd
+2-Creamos una carpeta
+	mkdir NuevaCarpeta
+3- Inicializar Git y verificamos que nos cree la carpeta .git/ con el comando ls
+	git init
+4- Creamos los archivos
+	touch index.html
+	touch estilos.css
+5- Agregamos a git
+	git add .
+6-Conocer el estatus de git
+	git status
+7-Creamos un area para despues crear el commit
+	git add -A
+8-Creamos un commit
+	git commit -m "Fondo"
+9-Para ver los comit que tenemos
+	git log
+10-Cambiar a un commit con checkout y el id del commit
+	git checkout ce45a9aedd9b525327c7dd76d4131d4ce75f7192
+11-Para regresar a la rama master o bien a nuestro codigo principal
+	git checkout master
+12-Para eliminar la carpeta git en caso de ya no utilizarlo
+	rm -rf .git
+
+
+Vincular Git con Github
+
+vincular tu repositorio cuando es tuyo
+	git remote add originCafe https://github.com/JozeHernandez/proyectoWebCafe.git
+Verificar conexion 
+	git remote -v
+Subir los archivos de la carpeta donde estoy a la conexion
+	git push origin master
+Remover conexiones a git
+	git remote remove origin
+Obetener archivos
+	git pull origin master
+
+
+Clonar repositorio cuando eres COLABORADOR
+	git clone https://github.com/JozeHernandez/proyectoWebCafe.git
+ver commits del repositorio
+	git load
+touch archivo.txt
+git add.
+git commit -m "modificacion"
+git push origin master
+git pull origin master ->pedir codigo de un remoto de la rama a actualizar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
